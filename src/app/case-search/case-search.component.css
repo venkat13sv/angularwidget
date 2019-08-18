@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+
+}
+
+.searchTerm {
+  width: 100%;
+ /* border: 3px solid #00B4CC;*/
+   border: 3px solid #edefec;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+
+}
+
+.searchTerm:focus{
+  color:#000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-search:before {
+    content: "\f002";
+}
+
+.IMG_1 {
+    border-collapse: collapse;
+    color: rgb(26, 13, 171);
+    cursor: pointer;
+    height: 100px;
+    text-align: left;
+    text-decoration: none solid rgb(26, 13, 171);
+    width: 100px;
+    column-rule-color: rgb(26, 13, 171);
+    perspective-origin: 50px 50px;
+    transform-origin: 50px 50px;
+    caret-color: rgb(26, 13, 171);
+    border: 0px none rgb(26, 13, 171);
+
+    outline: rgb(26, 13, 171) none 0px;
+}/*#IMG_1*/
+
+.DIV_1 {
+    color: rgb(34, 34, 34);
+    height: 106px;
+    text-align: left;
+    text-decoration: none solid rgb(34, 34, 34);
+    width: 600px;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 300px 53px;
+    transform-origin: 300px 53px;
+    caret-color: rgb(34, 34, 34);
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal 400 normal 13px / 15.6px arial, sans-serif;
+    margin: 0px 0px 26px;
+    outline: rgb(34, 34, 34) none 0px;
+}/*.DIV_1*/
+
+.DIV_2 {
+    border-collapse: collapse;
+    color: rgb(34, 34, 34);
+    display: inline-block;
+    height: 106px;
+    text-align: left;
+    text-decoration: none solid rgb(34, 34, 34);
+    width: 600px;
+    column-rule-color: rgb(34, 34, 34);
+    perspective-origin: 300px 53px;
+    transform-origin: 300px 53px;
+    caret-color: rgb(34, 34, 34);
+    border: 0px none rgb(34, 34, 34);
+    font: normal normal 400 normal 13px / 15.6px arial, sans-serif;
+    outline: rgb(34, 34, 34) none 0px;
+}/*.DIV_2*/
+
+#A_3 {
+    border-collapse: collapse;
+    color: rgb(26, 13, 171);
+    display: block;
+    float: left;
+    height: 103px;
+    text-align: left;
+    text-decoration: none solid rgb(26, 13, 171);
+    width: 100px;
+    column-rule-color: rgb(26, 13, 171);
+    perspective-origin: 50px 51.5px;
+    transform-origin: 50px 51.5px;
+    caret-color: rgb(26, 13, 171);
+    border: 0px none rgb(26, 13, 171);
+    font: normal normal 400 normal 13px / 15.6px arial, sans-serif;
+    margin: 3px 8px 0px 0px;
+    outline: rgb(26, 13, 171) none 0px;
+}/*#A_3*/
+
+#IMG_4 {
+    border-collapse: collapse;
+    color: rgb(26, 13, 171);
+    cursor: pointer;
+    height: 100px;
+    text-align: left;
+    text-decoration: none solid rgb(26, 13, 171);
+    width: 100px;
+    column-rule-color: rgb(26, 13, 171);
+    perspective-origin: 50px 50px;
+    transform-origin: 50px 50px;
+    caret-color: rgb(26, 13, 171);
+    border: 0px none rgb(26, 13, 171);
+    font: normal normal 400 normal 13px / 15.6px arial, sans-serif;
+    outline: rgb(26, 13, 171) none 0px;
+}/*#IMG_4*/
+
+#H3_6 {
+   color: rgba(0, 0, 0, 0.84);
+    cursor: pointer;
+    display: -webkit-box;
+    height: 28px;
+    letter-spacing: -0.42px;
+    max-height: 84px;
+    text-align: left;
+    text-decoration: none solid rgba(0, 0, 0, 0.84);
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    text-overflow: ellipsis;
+    width: 480px;
+}/*#H3_6*/
+
+.DIV_13 {
+    border-collapse: collapse;
+    color: rgb(84, 84, 84);
+    height: 36px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-decoration: none solid rgb(84, 84, 84);
+    width: 600px;
+    column-rule-color: rgb(84, 84, 84);
+    perspective-origin: 300px 18px;
+    transform-origin: 300px 18px;
+    caret-color: rgb(84, 84, 84);
+    border: 0px none rgb(84, 84, 84);
+    font: normal normal 400 normal 13px / 18.2px arial, sans-serif;
+    outline: rgb(84, 84, 84) none 0px;
+}/*.DIV_13*/

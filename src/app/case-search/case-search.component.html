@@ -1,0 +1,30 @@
+<div class="wrap">
+   <div class="title">Case Information Search</div>
+   <div class="search ">
+
+      <input type="text" name="caseId"  class="searchTerm" placeholder="Case Id" value="" #caseId>
+  	  <input type="text" name="caseName" class="searchTerm" placeholder="Case Name" value="" #caseName>
+  	  <input type="text" name="caseType" class="searchTerm" placeholder="Case Type" value="" #caseType>
+        <button type="submit" class="searchButton" (click)="searchCases(caseId.value,caseName.value,caseType.value)">
+          <i class="fa fa-search"></i>
+	 <!-- <img src="searchicon.png"/>-->
+        </button>
+
+   </div>
+
+   <div *ngFor='let case of searchResult' class="DIV_1">
+	<div class="DIV_2">
+		<a href="" id="A_3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_ShXIjIw-IpgcD4xG0SKGJwDKyKXueexkq_ZhXWzB-7u-g3u5_rW_BXldYMsiAPu0_e5WPAI" alt="Story image for case search portal from ITProPortal" id="IMG_4" /></a>
+		<div id="DIV_5">
+			<h3 id="H3_6">
+			<!--	<a href="" id="A_7">The three waves of innovation in management</a>-->
+		{{ case.id }}   :  {{case.name}}
+			</h3>
+
+			<div class="DIV_13">
+			{{case.description}}
+			</div>
+		</div>
+	</div>
+</div>
+</div>
